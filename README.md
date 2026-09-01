@@ -46,3 +46,42 @@ Rather than optimizing solely for benchmark accuracy, the project emphasizes **d
 - Optimize the final model for practical inference and future edge deployment.
 
 ---
+
+
+## System Architecture
+
+```text
+                    ┌─────────────────────┐
+                    │    Input Image      │
+                    └──────────┬──────────┘
+                               │
+                               ▼
+                    ┌─────────────────────┐
+                    │ Image Preprocessing │
+                    │ & Quality Checks    │
+                    └──────────┬──────────┘
+                               │
+                               ▼
+                    ┌─────────────────────┐
+                    │ Leaf / Plant        │
+                    │ Localization        │
+                    └──────────┬──────────┘
+                               │
+                               ▼
+                    ┌─────────────────────┐
+                    │ Feature Extraction  │
+                    │ / Deep Learning     │
+                    └──────────┬──────────┘
+                               │
+                               ▼
+                    ┌─────────────────────┐
+                    │ Disease             │
+                    │ Classification      │
+                    └──────────┬──────────┘
+                               │
+                               ▼
+                    ┌─────────────────────┐
+                    │ Prediction &        │
+                    │ Confidence Score     │
+                    └─────────────────────┘
+```
