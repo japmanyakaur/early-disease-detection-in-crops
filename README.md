@@ -19,3 +19,18 @@
 </div>
 
 ---
+
+
+## Overview
+
+Early identification of plant diseases is critical for reducing crop losses and enabling timely intervention.
+
+**Early Disease Detection in Crops** is a computer vision research project focused on developing a robust deep learning pipeline for identifying disease symptoms from crop images.
+
+The project currently focuses on **Tomato** as the flagship crop and is designed with a modular architecture that can be extended to additional crops and disease categories.
+
+Rather than optimizing solely for benchmark accuracy, the project emphasizes **data quality, generalization, leakage-aware evaluation, and practical deployment**.
+
+---
+
+
