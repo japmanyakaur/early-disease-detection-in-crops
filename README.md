@@ -82,6 +82,6 @@ Rather than optimizing solely for benchmark accuracy, the project emphasizes **d
                                ▼
                     ┌─────────────────────┐
                     │ Prediction &        │
-                    │ Confidence Score     │
+                    │ Confidence Score    │
                     └─────────────────────┘
 ```
