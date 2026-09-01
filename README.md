@@ -34,3 +34,15 @@ Rather than optimizing solely for benchmark accuracy, the project emphasizes **d
 ---
 
 
+
+## Core Objectives
+
+- Develop an accurate image-based crop disease detection system.
+- Detect disease symptoms at an early stage.
+- Build models that generalize beyond controlled datasets.
+- Identify and mitigate dataset bias and leakage.
+- Compare modern CNN architectures systematically.
+- Establish a reproducible training and evaluation pipeline.
+- Optimize the final model for practical inference and future edge deployment.
+
+---
