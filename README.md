@@ -85,3 +85,20 @@ Rather than optimizing solely for benchmark accuracy, the project emphasizes **d
                     │ Confidence Score    │
                     └─────────────────────┘
 ```
+
+## Research Focus
+
+A major component of this project is understanding whether a model is learning actual disease-related visual features or simply learning dataset-specific characteristics.
+
+The experimental pipeline therefore investigates:
+
+Dataset-source bias
+Camera and acquisition differences
+Lighting variations
+Background differences
+Duplicate and near-duplicate images
+Train/validation/test leakage
+Class imbalance
+Generalization across data sources
+
+This makes model evaluation more meaningful than relying on a single accuracy value.
