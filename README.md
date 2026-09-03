@@ -90,7 +90,7 @@ Rather than optimizing solely for benchmark accuracy, the project emphasizes **d
 
 A major component of this project is understanding whether a model is learning actual disease-related visual features or simply learning dataset-specific characteristics.
 
-The experimental pipeline therefore investigates:
+The  pipeline investigates:
 
 Dataset-source bias
 Camera and acquisition differences
